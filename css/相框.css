@@ -1,0 +1,162 @@
+.hbottom{
+    width: 2000px;
+    height: 300px;
+    margin-top: -240px;
+    margin-left: 200px;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999999;
+}
+.hbottom li{
+    display: flex;
+    flex-direction: column;
+    
+}
+.hbottom img{
+    
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+}
+.hbottom .hlha{
+    float: left;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    
+    position: relative;
+    /* 
+        隐藏logo中的文字
+    */
+    text-indent: -9999px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+}
+.hbottom .hlha a{
+    
+    position:absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #000025;
+    background-size: contain;
+    background-image: url("../练习img/欢乐港湾.png");
+    background-position: center;
+    left: 0;
+    transition: left 0.3s;
+}
+.hbottom .hlha .hlha2{
+    background-image: url("../练习img/日落.png");
+    left: -400px;
+}
+.hbottom .hlha:hover .hlha1{
+    left: 400px;
+}
+.hbottom .hlha:hover .hlha2{
+    left: 0;
+}
+.hbottom .hy{
+    float: left;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    
+    position: relative;
+    /* 
+        隐藏logo中的文字
+    */
+    text-indent: -9999px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+}
+.hbottom .hy a{
+    
+    position:absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #000025;
+    background-size: contain;
+    background-image: url("../练习img/合影.png");
+    background-position: center;
+    left: 0;
+    transition: left 0.3s;
+}
+.hbottom .hy .hy2{
+    background-image: url("../练习img/书包.png");
+    left: -400px;
+}
+.hbottom .hy:hover .hy1{
+    left: 400px;
+}
+.hbottom .hy:hover .hy2{
+    left: 0;
+}
+.hbottom .zp{
+    float: left;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    
+    position: relative;
+    /* 
+        隐藏logo中的文字
+    */
+    text-indent: -9999px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+}
+.hbottom .zp a{
+    
+    position:absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #000025;
+    background-size: contain;
+    background-image: url("../练习img/宝宝.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    transition: left 0.3s;
+}
+.hbottom .zp .zp2{
+    background-image: url("../练习img/我.png");
+    left: -400px;
+}
+.hbottom .zp:hover .zp1{
+    left: 400px;
+}
+.hbottom .zp:hover .zp2{
+    left: 0;
+}
+.hbottom .ye{
+    float: left;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    
+    position: relative;
+    /* 
+        隐藏logo中的文字
+    */
+    text-indent: -9999px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+}
+.hbottom .ye a{
+    
+    position:absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #000025;
+    background-size: contain;
+    background-image: url("../练习img/夜景.png");
+    background-position: center;
+    left: 0;
+    transition: left 0.3s;
+}
+.hbottom .ye .mo{
+    background-image: url("../练习img/摩天轮.png");
+    left: -400px;
+}
+.hbottom .ye:hover .ye1{
+    left: 400px;
+}
+.hbottom .ye:hover .mo{
+    left: 0;
+}

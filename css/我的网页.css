@@ -1,0 +1,250 @@
+/* 顶部导航栏 */
+.top-bar-wrapper{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+/* 
+    顶部导航条
+*/
+header{
+    height: 510px;
+    width:100%;
+    background-color: #000025;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+    background-image: url("../练习img/土星.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: -600px;
+    animation-duration: 2s;
+    animation-name: test;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes test{
+    /* 开始位置 */
+    from{
+        background-position: 3px;
+    }
+    /* 结束位置 */
+
+    to{
+        background-position: -600px;
+    }
+    
+
+}
+
+.top-bar{
+    width: 1200px;
+    margin-left: 500px;
+    
+}
+.top-bar img{
+    width: 100px;
+    margin-top: -5px;
+    float: left;
+}
+.top-left a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.top-left a:hover{
+    color: antiquewhite;
+}
+
+.app{
+    position: relative;
+}
+.app::after{
+    display: none;
+    content: '';
+    position:absolute;
+    line-height: 1px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: none;
+    border-bottom-color:white;
+    left: 0;
+    bottom: 0;
+    margin-left: 20px;
+}
+.app:hover .qrcode,
+.app:hover::after{
+    display: block;
+    height: 120px;
+}
+.app .qrcode{
+    
+    position:absolute;
+    height: 0;
+    overflow: hidden;
+    left: -27px;
+    
+    transition: height 0.3s;
+}
+.qrcode img{
+    margin-top: 0px;
+    width: 120px;
+}
+.search-wrapper{
+    width: 296px;
+    height: 50px;
+    float: right;
+    margin-top: 5px;
+    margin-right: -580px;
+    background-color: red;
+    
+}
+.search-wrapper .search-inp{
+    box-sizing: border-box;
+    width: 244px;
+    border: none;
+    float: left;
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    outline: none;
+}
+.search-wrapper .search-inp:focus,
+.search-wrapper .search-inp:focus + button{
+    border-color: #ff6700;
+}
+.search-wrapper .search-btn{
+    float: left;
+    height: 50px;
+    width: 52px;
+    padding: 0px;
+    border: none;
+    background-color: white;
+    color: #616161;
+    font-size: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    border-left: none;
+}
+.search-wrapper .search-btn:hover{
+    background-color: #ff6700;
+    color: white;
+    border: none;
+}
+/* 
+    图片
+*/
+.picture{
+    position:absolute;
+    height: 500px;
+    width: 500px;
+    margin-left: 1500px;
+    margin-top: -70px;
+    background-image: url("../练习img/Logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 999;
+}
+
+/* .backpicture{
+    height: 800px;
+    width: 600px;
+    display: block;
+    background-image: url("../练习img/土星.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    
+} */
+/* .backpicture:hover{
+    margin-left: 500px;
+    transition-property: all;
+    transition-duration: 4s;
+} */
+/* .banner{
+    position: relative;
+    margin-left: 500px;
+    float: left;
+
+}
+.banner .img-list li{
+    position:absolute;
+    width: 400px;
+    margin-top: -240px;
+}
+.banner .img-list li img{
+    width: 400px;
+}
+.pointor{
+    position:relative;
+    margin-left: 300px;
+    margin-top: 30px;
+   
+}
+.pointor a{
+    float: left;
+    width: 6px;
+    height: 6px;
+    border: 3px rgba(255, 255, 255, .4) solid;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color:bisque;
+    z-index: 9999;
+}
+.pointor a:hover,
+.pointor a.active{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.prev-next a{
+    width: 20px;
+    height: 50px;
+    background-image: url("../练习img/摩天轮.png");
+    position: absolute;
+
+}
+.prev-next .prev{
+    left: 0;
+    top: -80px;
+    margin-left: 20px;
+    background-position: 84px;
+}
+.prev-next .next{
+    left: 0;
+    top: -80px;
+    margin-left: 360px;
+}
+.prev-next .next:hover{
+    background-position: 224px;
+} */
+/* .back-top{
+    width: 26px;
+    height: 206px;
+    background-color: #ff6700;
+    position: fixed;
+    bottom: 100px;
+    right: 50%;
+    margin-right: -800px;
+} */
+main{
+    height: 1500px;
+    width:1800px;
+    margin-left: 500px;
+    
+}
+
+.music{
+    margin-top: 80px;
+    position:absolute;
+    width: 250px;
+    opacity: 0.4;
+    display: flex;
+    flex-shrink: 1;
+    z-index: 9999;
+}

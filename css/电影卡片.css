@@ -1,0 +1,95 @@
+        /* 
+            电影卡片
+        */
+        .MV{
+            width: 1600px;
+            display: flex;
+            align-items: flex-start;
+            flex-flow: row wrap;
+        }
+        .outer{
+            width: 300px;
+            margin-left: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+            display: flex;
+            flex-flow: column;
+            margin-top: 10px;
+            transition-property: all;
+            transition: 1s;
+            
+            transition-timing-function:linear;
+        }
+        
+        .outer:hover{
+            margin-top: 80px;
+            transform: translateY(-4px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+        }
+        
+        .img-wrapper img{
+            width: 100%;
+            /* 
+                宽度指定后，高度自动调整了
+            */
+            vertical-align: bottom;
+        }
+        .info{
+            padding: 0 18px;
+            color: #acacac;
+            font-size: 14px;
+            margin-left: 4px;
+            
+        }
+        .info .title{
+            color: #717171;
+            font-size: 18px;
+            margin: 13px 0 15px 0;
+            
+        }
+        .info .category{
+            color: #acacac;
+            font-size: 14px;
+        }
+        .info .category i{
+            margin-right: 4px;
+        }
+        .info h3{
+            display:contents;
+            
+        }
+        .info .intro{
+            margin-top: 10px;
+            line-height: 25px;
+            font-size: 20px;
+        }
+        .star-wrapper{
+            color: #918f8f;
+            width: 100%;
+            font-size: 10px;
+            height: 46px;
+            line-height: 46px;
+            border-top: 1px solid #e9e9e9;
+            margin: 14px 0px;
+        }
+        .time{
+            float: left;
+        }
+        .time i{
+            font-size: 25px;
+            margin-left: 16px;
+        }
+        .star-wrapper .logo{
+            float: right;
+            line-height: 46px;
+            margin-right: -5px;
+        }
+        /* 
+            第一次互相赠送礼物
+        */
+        /* .outer{
+            width: 200px;
+            margin: 100px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+            float: left;
+        } */
+        
